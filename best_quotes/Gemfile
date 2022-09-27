@@ -3,3 +3,7 @@ source "https://rubygems.org"
 gem "rulers", path: "../."
 
 gem "webrick"
+
+group :development do
+  gem "rerun"
+end
